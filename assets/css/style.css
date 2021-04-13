@@ -1,0 +1,1088 @@
+/*********Start Base CSS ***********/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+a:focus,
+input,
+button {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	transition: all 1s;
+	will-change: background;
+}
+.container{
+	overflow: hidden;
+}
+.clear {
+  clear: both;
+}
+.section{
+	display: block;
+	width: 100%;
+	width: 100%;
+	height: 100vh;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/*********End Basic Css********/
+
+/*********header********/
+
+.header{
+	width: 100%;
+	float: left;
+	background-color: #EFE7F6;
+}
+.button{
+	width: 50%;
+	float: left;
+}
+.logo{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.logo h2{
+	font-family: 'Allura', cursive;
+	font-size: 45px;
+    color: #726F76;
+    margin-top: 8px;
+    position: fixed;
+	display: block;
+	padding-left: 500px;
+}
+
+/*********End header********/
+
+/*********welcome********/
+
+#welcome{
+
+	padding: 120px 0;
+}
+.welcome_text{padding: 5px;}
+.welcome_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 100px;
+    font-weight: 100;
+    color: #434044;
+}
+.welcome_text h3{
+	font-family: Adobe Garamond Pro;
+    font-size: 30px;
+    color: #6A666D;
+}
+.welcome_text p{
+	font-size: 30px;
+}
+
+/*********End welcome********/
+
+/*********impect********/
+
+#impect{
+	
+	padding: 150px 0;
+}
+.impect_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 100px;
+    font-weight: 100;
+    color: #434044;
+}
+.impect_text h3{
+	font-family: Adobe Garamond Pro;
+    font-size: 30px;
+    color: #6A666D;
+}
+
+.menu-bg{
+	background-color: red;
+}
+
+/*********End impect********/
+
+
+/*********work********/
+
+#work{
+	
+	padding: 150px 0;
+}
+.work_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 100px;
+    font-weight: 100;
+    color: #434044;
+}
+.work_text h3{
+	font-family: Adobe Garamond Pro;
+    font-size: 30px;
+    color: #443F3E;
+}
+
+/*********End work********/
+
+/*********Brands********/
+
+#Brands{
+	
+	padding: 150px 0;
+}
+.Brands_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #434044;
+}
+.Brands_text h3{
+	font-family: Adobe Garamond Pro;
+    font-size: 30px;
+    color: #453F3B;
+}
+.Brands_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+/*********End Brands********/
+
+/*********Him********/
+
+#Him{
+	
+	padding: 200px 0;
+}
+.Him_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #434044;
+}
+.Him_text p{
+    font-size: 25px;
+    color: #9B8D82;
+}
+.Him_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.Him_text p a{
+	color: #9B8D82;
+	text-decoration-line: underline;
+	transition: all .3s;
+}
+.Him_text p a:hover{
+	color: #7897C1;
+}
+.Him_img img{
+	width: 100%;
+	opacity: 1;
+}
+
+/*********End Him********/
+
+/*********Raden********/
+
+#Raden{
+	
+	padding: 120px 0;
+}
+.Raden_text{
+	margin-top: 100px;
+}
+.Raden_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #434044;
+}
+.Raden_text p{
+    font-size: 25px;
+    color: #9B8D82;
+}
+.Raden_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.Raden_text p a{
+	color: #9B8D82;
+	text-decoration-line: underline;
+	transition: all .3s;
+}
+.Raden_text p a:hover{
+	color: #7897C1;
+}
+.Raden_img{
+	width: 100%;
+}
+
+
+/*********End Raden********/
+
+/*********Tomorrow********/
+
+#Tomorrow{
+	
+	padding: 180px 0;
+}
+.Tomorrow_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #434044;
+}
+.Tomorrow_text p{
+    font-size: 25px;
+    color: #9D928B;
+}
+.Tomorrow_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.Tomorrow_text p a{
+	color: #9D928B;
+	text-decoration-line: underline;
+	transition: all .3s;
+}
+.Tomorrow_text p a:hover{
+	color: #7897C1;
+}
+.Tomorrow_img img{
+	width: 100%;
+	opacity: 1;
+}
+
+/*********End Tomorrow********/
+
+/*********Sunday********/
+
+#Sunday{
+	
+	padding: 120px 0;
+}
+.Sunday_text{
+	margin-top: 100px;
+}
+.Sunday_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #434044;
+}
+.Sunday_text p{
+    font-size: 25px;
+    color: #877E7A;
+}
+.Sunday_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.Sunday_text p a{
+	color: #877E7A;
+	text-decoration-line: underline;
+	transition: all .3s;
+}
+.Sunday_text p a:hover{
+	color: #7897C1;
+}
+.Sunday_img{
+	width: 100%;
+}
+
+/*********End Sunday********/
+
+/*********Harry********/
+
+#Harry{
+	
+	padding: 180px 0;
+}
+.Harry_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #434044;
+}
+.Harry_text p{
+    font-size: 25px;
+    color: #9D928B;
+}
+.Harry_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.Harry_text p a{
+	color: #9D928B;
+	text-decoration-line: underline;
+	transition: all .4s;
+}
+.Harry_text p a:hover{
+	color: #7897C1;
+}
+.Harry_img img{
+	width: 100%;
+	opacity: 1;
+}
+
+/*********End Harry********/
+
+/*********harrys_quote********/
+
+#harrys_quote{
+	
+	padding: 120px 0;
+}
+blockquote{
+    margin: 0 0 20px;
+    font-size: 17.5px;
+	border: none;
+	padding: 0;
+}
+blockquote > p{
+    font-size: 35px;
+    color: #2F60A2;
+	font-family: Miller Disp Lt;;
+	margin-top: 50px;
+}
+.harrys_quote_text > p{
+	font-size: 18px;
+	color: #6889B7;
+}
+.harrys_quote_text > p > strong{
+	font-weight: bold;
+	color: #2F60A2;
+	font-size: 20px;
+}
+.harrys_quote_img{
+	width: 100%;
+}
+.fa-quote-left{padding-right:12px}
+.fa-quote-right{padding-left:12px}
+
+/*********End harrys_quote********/
+
+/*********Businesses********/
+
+#Businesses{
+	
+	padding: 150px 0;
+}
+.Businesses_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #434044;
+}
+.Businesses_text h3{
+	font-family: Adobe Garamond Pro;
+    font-size: 35px;
+    color: #453F3B;
+}
+.Businesses_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+/*********End Businesses********/
+
+/*********Smile********/
+
+#Smile{
+	
+	padding: 120px 0;
+}
+.Smile_text{
+	margin-top: 100px;
+}
+.Smile_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #444242;
+}
+.Smile_text p{
+    font-size: 23px;
+    color: #757271;
+}
+.Smile_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.Smile_text p a{
+	color: #877E7A;
+	text-decoration-line: underline;
+	transition: all .3s;
+}
+.Smile_text p a:hover{
+	color: #7897C1;
+}
+.Smile_img{
+	width: 100%;
+}
+
+/*********End Smile********/
+
+/*********Dia********/
+
+#Dia{
+	
+	padding: 180px 0;
+}
+.Dia_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #434242;
+}
+.Dia_text p{
+    font-size: 24px;
+    color: #A4A3A3;
+}
+.Dia_text h4{
+	color: #434242;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.Dia_text p a{
+	color: #A4A3A3;
+	text-decoration-line: underline;
+	transition: all .3s;
+}
+.Dia_text p a:hover{
+	color: #7897C1;
+}
+.Dia_img img{
+	width: 100%;
+	opacity: 1;
+}
+
+/*********End Dia********/
+
+/*********Sweetgreen********/
+
+#Sweetgreen{
+	
+	padding: 120px 0;
+}
+.Sweetgreen_text{
+	margin-top: 100px;
+}
+.Sweetgreen_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #414243;
+}
+.Sweetgreen_text p{
+    font-size: 22px;
+    color: #707173;
+}
+.Sweetgreen_text p a:hover{
+	color: #7897C1;
+}
+.Sweetgreen_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.Sweetgreen_text p a{
+	color: #877E7A;
+	text-decoration-line: underline;
+	transition: all .3s;
+}
+.Sweetgreen_img{
+	width: 100%;
+}
+
+/*********End Smile********/
+
+/*********sweetgreen_quote********/
+
+#sweetgreen_quote{
+	
+	padding: 120px 0;
+}
+blockquote{
+    margin: 0 0 20px;
+    font-size: 17.5px;
+	border: none;
+	padding: 0;
+}
+blockquote > p{
+    font-size: 37px;
+    color: #2F60A2;
+	font-family: Miller Disp Lt;
+	margin-top: 50px;
+}
+.sweetgreen_quote_text > p{
+	font-size: 18px;
+	color: #6889B7;
+}
+.sweetgreen_quote_text > p > strong{
+	font-weight: bold;
+	color: #2F60A2;
+	font-size: 20px;
+}
+.sweetgreen_quote_img{
+	width: 100%;
+}
+.fa-quote-left{padding-right:12px}
+.fa-quote-right{padding-left:12px}
+
+/*********End sweetgreen_quote********/
+
+/*********Partner********/
+
+#Partner{
+	
+	padding: 150px 0;
+}
+#Partner h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #404244;
+}
+.Partner_text h3{
+	font-family: Adobe Garamond Pro;
+    font-size: 35px;
+    color: #404244;
+	line-height: 45px;
+}
+.Partner_text h4{
+	color: #6E7275;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+/*********End Partner********/
+
+/*********WFM********/
+
+#WFM{
+	
+	padding: 120px 0;
+}
+.WFM_text{
+	margin-top: 100px;
+}
+.number{
+	font-family: Bell MT;
+	font-size: 75px;
+}
+.WFM_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #404344;
+}
+.WFM_text p{
+    font-size: 22px;
+    color: #8F9598;
+	line-height: 35px;
+}
+.WFM_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.WFM_text p a{
+	color: #877E7A;
+	text-decoration-line: underline;
+	transition: all .3s;
+}
+.WFM_text p a:hover{
+	color: #7897C1;
+}
+.WFM_img{
+	width: 100%;
+}
+
+/*********End WFM********/
+
+/*********Crew********/
+
+#Crew{
+	
+	padding: 180px 0;
+}
+.Crew_text{margin-top: 100px;}
+.Crew_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #434044;
+}
+.Crew_text p{
+    font-size: 25px;
+    color: #9D928B;
+}
+.Crew_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.Crew_text p a{
+	color: #9D928B;
+	text-decoration-line: underline;
+	transition: all .3s;
+}
+.Crew_text p a:hover{
+	color: #7897C1;
+}
+.Crew_img img{
+	width: 100%;
+	opacity: 1;
+}
+
+/*********End Crew********/
+
+/*********GE********/
+
+#GE{
+	
+	padding: 120px 0;
+}
+.GE_text{
+	margin-top: 100px;
+}
+.GE_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #444242;
+}
+.GE_text p{
+    font-size: 22px;
+    color: #A2A7A8;
+	line-height: 40px;
+}
+.GE_text h4{
+	color: #5A524C;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.GE_text p a{
+	color: #877E7A;
+	text-decoration-line: underline;
+	transition: all .3s;
+}
+.GE_text p a:hover{
+	color: #7897C1;
+}
+.GE_img{
+	width: 100%;
+}
+
+/*********End GE********/
+
+/*********ge_quote********/
+
+#ge_quote{
+	
+	padding: 120px 0;
+}
+blockquote{
+    margin: 0 0 20px;
+    font-size: 17.5px;
+	border: none;
+	padding: 0;
+}
+blockquote > p{
+    font-size: 37px;
+    color: #2F60A2;
+	font-family: Miller Disp Lt;
+	margin-top: 50px;
+}
+.ge_quote_text{
+	margin-top: 100px;
+}
+.ge_quote_text > p{
+	font-size: 18px;
+	color: #6889B7;
+}
+.ge_quote_text > p > strong{
+	font-weight: bold;
+	color: #2F60A2;
+	font-size: 20px;
+}
+.ge_quote_img{
+	width: 100%;
+}
+.fa-quote-left{padding-right:12px}
+.fa-quote-right{padding-left:12px}
+
+/*********End ge_quote********/
+
+/*********Capabilities********/
+
+#Capabilities{
+	
+	padding: 100px 0;
+}
+.Capabilities_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #434443;
+}
+.Capabilities_text h3{
+	font-family: Adobe Garamond Pro;
+    font-size: 35px;
+    color: #434443;
+	line-height: 45px;
+}
+.Capabilities_text h4{
+	color: #585857;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+/*********End Capabilities********/
+
+/*********Brand_Development********/
+
+#Brand_Development{
+	
+	padding: 80px 0;
+	padding-bottom: 200px;
+}
+.Brand_Development_text_left h4{
+	color: #585857;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.fa-hand-o-left{
+	font-size: 18px;
+	color: #B28F74;
+	padding-left: 10px;
+}
+.active{
+	color: #2F60A2;
+}
+.Brand_Development_text_left > ul > li > a{
+	font-family: Adobe Garamond Pro;
+    font-size: 50px;
+    font-weight: 100;
+    color: #444443;
+	border-bottom: 2px solid #2F60A2;
+	transition: all .3s;
+}
+.Brand_Development_text_left > ul > li > a:hover{
+	color: #4E77AF;
+}
+.Brand_Development_text_right{
+	margin-top: 80px;
+}
+.Brand_Development_text_right h3{
+	color: #8B8B8A;
+	font-family: Adobe Garamond Pro;
+}
+.fa-check{
+	padding-right: 10px;
+	color: #8B8B8A;
+}
+.Brand_Development_text_right p{
+	font-family: Adobe Garamond Pro;
+	font-size: 25px;
+	color: #8B8B8A;
+}
+.Brand_Development_text_right ul li a{
+	color: #8B8B8A;
+	font-family: Adobe Garamond Pro;
+	font-size: 25px;
+}
+.col{
+	color: #2F60A2;
+	border-bottom: 2px solid #2F60A2;
+}
+
+/*********End Brand_Development********/
+
+/*********Care********/
+
+#Care{
+	
+	padding: 100px 0;
+}
+.Care_text h1{
+	font-family: Adobe Garamond Pro;
+    font-size: 60px;
+    font-weight: 100;
+    color: #434443;
+}
+.Care_text h3{
+	font-family: Adobe Garamond Pro;
+    font-size: 35px;
+    color: #656564;
+	line-height: 50px;
+}
+.Care_text h4{
+	color: #585857;
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.link{
+	text-decoration-line: underline;
+	color: #656564;
+}
+
+/*********End Capabilities********/
+
+/*********Footer********/
+
+.footer_img img{
+	width: 100%;
+}
+.footer{
+	background-color: #2f60a2;
+}
+.footer h4{
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #fff;
+}
+.footer h3{
+	font-family: Adobe Garamond Pro;
+    font-size: 35px;
+    color: #fff;
+	line-height: 45px;
+	margin-left: 10px;
+}
+.root{
+	text-decoration-line: underline;
+	color: #fff;
+	font-size: 35px;
+}
+li {
+    list-style-type: none;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+}
+.footer_col{
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+.footer_col > p >a{
+	color: #fff;
+	font-size: 18px;
+	transform: all .5s;
+}
+.footer_col > p >a:hover{
+	color: #C0C0C0;
+}
+.copy img{
+	padding-right: 15px;
+}
+.copy > p{
+	font-size: 20px;
+	color: rgba(255,255,255,0.72);
+}
+.scrolltop a{
+	text-decoration: none;
+}
+.scrolltop a i{
+	color: #fff;
+	background: rgba(0,0,0,0.7);
+	padding: 10px;
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+}
+
+/*********End Footer********/
+
+
+
+
+/*********media query********/
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.logo h2{padding-left:350px;}   
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.logo h2{padding-left:0px;} 
+.welcome_text h1,.impect_text h1,.work_text h1,.Brands_text h1,.Him_text h1,.Raden_text h1,.Tomorrow_text h1,.Sunday_text h1,.Harry_text h1,.Businesses_text h1,.Smile_text h1,.Dia_text h1,.Sweetgreen_text h1,#Partner h1,.WFM_text h1,.GE_text h1,.Crew_text h1,.Capabilities_text h1,.Care_text h1{font-size: 40px;}
+.welcome_text h3,.impect_text h3,.work_text h3,.Brands_text h3,.Him_text h3,.Raden_text h3,.Tomorrow_text h3,.Sunday_text h3,.Harry_text h3,.Businesses_text h3,.Smile_text h3,.Dia_text h3,.Sweetgreen_text h3,#Partner h3,.WFM_text h3,.GE_text h3,.Crew_text h3,.Capabilities_text h3,.Care_text h3{font-size: 25px;}  
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.welcome_text h1,.impect_text h1,.work_text h1,.Brands_text h1,.Him_text h1,.Raden_text h1,.Tomorrow_text h1,.Sunday_text h1,.Harry_text h1,.Businesses_text h1,.Smile_text h1,.Dia_text h1,.Sweetgreen_text h1,#Partner h1,.WFM_text h1,.GE_text h1,.Crew_text h1,.Capabilities_text h1,.Care_text h1{font-size: 40px;}
+.welcome_text h3,.impect_text h3,.work_text h3,.Brands_text h3,.Him_text h3,.Raden_text h3,.Tomorrow_text h3,.Sunday_text h3,.Harry_text h3,.Businesses_text h3,.Smile_text h3,.Dia_text h3,.Sweetgreen_text h3,#Partner h3,.WFM_text h3,.GE_text h3,.Crew_text h3,.Capabilities_text h3,.Care_text h3{font-size: 25px;}
+.logo h2{padding-left:0px;}
+.welcome_text{padding: 20px;}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 300px) and (max-width: 480px){
+.welcome_text h1,.impect_text h1,.work_text h1,.Brands_text h1,.Him_text h1,.Raden_text h1,.Tomorrow_text h1,.Sunday_text h1,.Harry_text h1,.Businesses_text h1,.Smile_text h1,.Dia_text h1,.Sweetgreen_text h1,#Partner h1,.WFM_text h1,.GE_text h1,.Crew_text h1,.Capabilities_text h1,.Care_text h1{font-size: 40px;}
+.welcome_text h3,.impect_text h3,.work_text h3,.Brands_text h3,.Him_text h3,.Raden_text h3,.Tomorrow_text h3,.Sunday_text h3,.Harry_text h3,.Businesses_text h3,.Smile_text h3,.Dia_text h3,.Sweetgreen_text h3,#Partner h3,.WFM_text h3,.GE_text h3,.Crew_text h3,.Capabilities_text h3,.Care_text h3{font-size: 25px;}
+.logo h2{padding-left:0px;}
+.welcome_text{padding: 20px;}
+}
+
+/*********End media query********/
+
+
+
+/*********jQuery********/
+
+@import url(http://fonts.googleapis.com/css?family=Vollkorn|Roboto);
+.toggle-button {
+    position: fixed;
+    top: 8px;
+    left: 25px;
+    padding: 9px 10px;
+    margin: 8px 15px 8px 0;
+    height: 20px;
+    width: 45px;
+    cursor: pointer;
+    z-index: 3;
+	color: #565359;
+}
+.bar {
+    background-color: #565359;
+    display: block;
+    width: 100%;
+    height: 5px;
+    border: 0;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+}
+.bar + .bar {
+    margin-top: 4px;
+}
+.middle {
+    top: 11px;
+}
+.bottom {
+    top: 22px;
+}
+.toggle-button:hover {
+    opacity: .7;
+}
+.toggle-active .bar {
+    background-color: #fff;
+}
+.toggle-active .top {
+    -webkit-transform: translateY(6px) translateX(0) rotate(45deg);
+}
+.toggle-active .middle {
+   opacity: 0;
+}
+.toggle-active .bottom {
+    -webkit-transform: translateY(-12px) translateX(0) rotate(-45deg);
+}
+.overlay {
+    position: fixed;
+    background-color: #2F60A2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .35s, visibility .35s, height .35s;
+	z-index: 1;
+}
+.nav-active {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+.overlay ul {
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 0;
+    font-family: 'Vollkorn', serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 110px;
+    list-style: none;
+    padding: 0;
+}
+.overlay ul li {
+    display: block;
+}
+.overlay ul li a {
+    color: #C0C0C0;
+    text-decoration: none;
+	transition: all .5s; 
+	font-size: 50px;
+}
+.overlay ul li a:hover{
+	color: #fff;
+}
+.fa-long-arrow-right{
+	padding-left: 10px;
+	font-size: 25px;
+}
+
+/*********End jQuery********/
